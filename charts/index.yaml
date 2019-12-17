@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  nextcloud:
+  - apiVersion: v1
+    appVersion: 17.0.0
+    created: "2019-12-17T13:00:49.71033528-05:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ~7.1.0
+    - condition: redis.enabled
+      name: redis
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ~10.0.1
+    description: A file sharing server that puts the control and security of your
+      own data back into your hands.
+    digest: a5cb353ad3ea06a453dd4894f0677cf2bd2316c3cbcbd3e8ef381b314ed72d64
+    home: https://nextcloud.com/
+    icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    maintainers:
+    - email: christian.ingenhaag@googlemail.com
+      name: chrisingenhaag
+    - email: jeff@billimek.com
+      name: billimek
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/docker
+    urls:
+    - https://geneliu.github.io/charts/nextcloud-1.9.1.tgz
+    version: 1.9.1
+generated: "2019-12-17T13:00:49.701538258-05:00"
