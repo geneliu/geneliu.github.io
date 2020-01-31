@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: geneliu/geneliu.github.io
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections: # A list of collections the CMS should be able to edit
+  - name: 'pages'
+    label: 'Page'
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: true
+    files:
+      - file: 'content/team.md'
+        label: 'Team Page'
+        name: 'team-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: ContactPage,
+            }
+          - { label: Title, name: title, widget: string }
