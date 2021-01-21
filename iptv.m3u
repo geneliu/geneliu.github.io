@@ -10,7 +10,5 @@ http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 https://rt-usa.secure.footprint.net/1105.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="English" tvg-logo="" tvg-country="UNSORTED" tvg-url="" group-title="News",RT UK (RU)
 https://rt-uk.secure.footprint.net/1106.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="English" tvg-logo="http://static.epg.best/ie/RTENewsNow.ie.png" tvg-country="IE" tvg-url="" group-title="News",RTE News Now (1080p)
-https://live.rte.ie/live/a/channel3/news.isml/news.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="English" tvg-logo="" tvg-country="US" tvg-url="" group-title="Sport",FOX Sport HD 1 (720p)
 https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master.m3u8
