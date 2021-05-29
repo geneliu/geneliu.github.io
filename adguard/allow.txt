@@ -1,1 +1,2 @@
 ||music.youtube.com^
+||*.youtube.com^$client='GenePC'
