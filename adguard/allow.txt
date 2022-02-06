@@ -1,3 +1,4 @@
 ||music.youtube.com^
 ||*.youtube.com^$client='GenePC'
 ||huanqiu.com^
+||u.gg^
